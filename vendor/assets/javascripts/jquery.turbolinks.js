@@ -44,6 +44,6 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
 
   $.turbo.register();
 
-  $.turbo.use('turbolinks:load', 'turbolinks:request-start');
+  $.turbo.use('turbolinks:render', 'turbolinks:request-start');
 
 }).call(this);
